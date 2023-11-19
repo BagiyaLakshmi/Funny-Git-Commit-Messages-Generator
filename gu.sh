@@ -6,11 +6,9 @@ git_push() {
 
     file_path = "/home/bagiya/tact/my-first-repo/comments.txt"
     
-    no_of_line = `wc -l < $file_path`
+    number_of_lines=`wc -l < $file_path`
 
-    echo $((no_of_line))
-
-    rando_number=`shuf -i 1-$((no_of_line)) -n 1`
+    rando_number=`shuf -i 1-$((number_of_lines)) -n 1`
 
     line=`sed $((rando_number))!d $file_path`
 
