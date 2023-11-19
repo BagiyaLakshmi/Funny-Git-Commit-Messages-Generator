@@ -19,5 +19,12 @@ def startpy():
 
     print(completion.choices[0].text)
 
+
+    generated_text = completion.choices[0].text
+
+    with open("chatgpt-generated.txt", 'a') as file:
+        file.write(generated_text)
+
+
 if __name__ == '__main__':
     startpy()
