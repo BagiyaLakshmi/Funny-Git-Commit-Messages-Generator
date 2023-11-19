@@ -4,7 +4,7 @@ git_push()
     git add .
 
     # path to the file
-    file_path="/home/bagiya/tact/my-first-repo/comments.txt"
+    file_path="/home/bagiya/tact/my-first-repo/chatgpt-comments.txt"
 
     # using wc command to count number of lines
     number_of_lines=`wc -l < $file_path`
