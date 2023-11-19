@@ -1,12 +1,13 @@
-git_push_with_vanilla()
-{
-    echo "calling Vanilla"
+git_push() {
 
-    git add .
+    echo "git push automatic"
 
-    git commit -m "Updates for $(date +%F)"
+    git add . 
+
+    git commit -m "updated at $(date +%F))"
 
     git push
+
 }
 
-git_push_with_vanilla
+git_push 
