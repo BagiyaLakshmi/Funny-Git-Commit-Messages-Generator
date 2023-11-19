@@ -10,3 +10,15 @@ Refactored the code to be more DRY (Don't Repeat Yourself... or do, I don't care
 Changed all the variable names to characters from The Office
 Turned the code upside down, just for fun
 Accidentally committed my password, oops
+Made a typo in the last commit message
+Accidentally committed my to-do list instead of code
+Left a funny joke in the code as a Easter egg
+Whoops, forgot to add the changes
+Fixed the bug that was causing all the bugs
+Committed a commit to fix the previous commit
+Added the missing semicolon, finally
+Changed all the variables to klingon
+Refactored the code to be more DRY (Don't Repeat Yourself... or do, I don't care)
+Changed all the variable names to characters from The Office
+Turned the code upside down, just for fun
+Accidentally committed my password, oops
