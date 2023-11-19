@@ -4,7 +4,7 @@ git_push() {
 
     git add . 
 
-    file_path = "/home/bagiya/tact/my-first-repo/comments.txt"
+    file_path ="/home/bagiya/tact/my-first-repo/comments.txt"
     
     number_of_lines=`wc -l < $file_path`
 
@@ -12,7 +12,7 @@ git_push() {
 
     line=`sed $((rando_number))!d $file_path`
 
-    git commit -m "$(line): Updates for $(date +%F)"
+    git commit -m "$line: Updates for $(date +%F)"
 
     git push
 
