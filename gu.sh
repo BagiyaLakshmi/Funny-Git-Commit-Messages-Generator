@@ -1,11 +1,6 @@
-git_push_with_chatgpt()
+git_push()
 {
   
-    git pull
-
-    # sleep 3 seconds
-    sleep 2
-
     git add .
 
     # path to the file
@@ -29,23 +24,4 @@ git_push_with_chatgpt()
 
 }
 
-git_push_with_vanilla()
-{
-    echo "calling Vanilla"
-    
-    git add .
-
-    git commit -m "Updates for $(date +%F)"
-
-    git push
-}
-
-# Testing
-# git_push_with_chatgpt
-# git_push_with_vanilla
-
-if [ -n "$1" ] ; then
-    git_push_with_vanilla
-else
-    git_push_with_chatgpt
-fi
+git_push
