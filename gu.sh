@@ -12,7 +12,7 @@ git_push() {
 
     line=`sed $((rando_number))!d $file_path`
 
-    git commit -m "$line: Updates for $(date +%F)"
+    git commit -m "$(line): Updates for $(date +%F)"
 
     git push
 
